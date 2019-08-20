@@ -1,0 +1,2 @@
+# DVVFixModalPresentationStyle
+解决在 iOS 13 上 UIViewController 的 modalPresentationStyle 值变成了 UIModalPresentationPageSheet，而不是默认的 UIModalPresentationFullScreen，会导致之前通过 presentViewController:animated:completion: 方法弹出的控制器效果非全屏的问题
